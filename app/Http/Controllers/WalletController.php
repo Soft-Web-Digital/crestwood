@@ -223,6 +223,7 @@ class WalletController extends Controller
     public function walletSwap(Request $request): \Illuminate\Http\RedirectResponse
     {
         $user = auth()->user();
+        $settings = Setting::first();
 
         // Validate request with improved rules
         $validator = Validator::make($request->all(), [
@@ -233,6 +234,11 @@ class WalletController extends Controller
 
         if ($validator->fails()) {
             return back()->withErrors($validator)->withInput()->with('error', 'Invalid input data');
+        }
+
+        // Check if transfer is allowed (only allow transfers TO wallet when transferable is false)
+        if (!$settings->transferable && $request->input('to_account') === 'wallet' && in_array($request->input('from_account'), ['invest', 'save', 'trade'])) {
+            return back()->withInput()->with('error', $settings->transferable_message);
         }
 
         $amount = $request->input('amount');

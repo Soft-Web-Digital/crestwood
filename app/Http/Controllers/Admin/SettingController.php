@@ -181,6 +181,30 @@ class SettingController extends Controller
         return back()->with('error', 'Error deleting Networks');
     }
 
+    public function updateTransferable(Request $request): RedirectResponse 
+    {
+        $validator = Validator::make($request->all(), [
+            'transferable' => ['sometimes', 'boolean'],
+            'transferable_message' => ['required', 'string'], // Fixed typo in field name
+        ]);
+    
+        if ($validator->fails()) {
+            return back()->withErrors($validator)->withInput()->with('error', 'Invalid input data');
+        }
+    
+        $setting = Setting::first();
+        $updated = $setting->update([
+            'transferable' => $request->has('transferable') ? true : false,
+            'transferable_message' => $request->input('transferable_message'), // Fixed typo in field name
+        ]);
+    
+        if ($updated) {
+            return back()->with('success', 'Transfer settings updated successfully');
+        }
+        
+        return back()->with('error', 'Error updating transfer settings');
+    }
+
     public function saveSettings(Request $request): RedirectResponse
     {
 //        Validate request
