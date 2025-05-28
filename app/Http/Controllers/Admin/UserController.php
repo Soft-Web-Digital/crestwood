@@ -132,6 +132,29 @@ class UserController extends Controller
         return back()->withInput()->with('error', 'Error updating profile');
     }
 
+    public function updateUserTransferable(Request $request, User $user)
+    {
+        $validator = Validator::make($request->all(), [
+            'transferable' => ['sometimes', 'boolean'],
+            'transferable_message' => ['required', 'string'],
+        ]);
+
+        if ($validator->fails()) {
+            return back()->withErrors($validator)->withInput()->with('error', 'Invalid input data');
+        }
+        
+        $updated = $user->update([
+            'transferable' => $request->has('transferable') ? $request->boolean('transferable') : false,
+            'transferable_message' => $request->input('transferable_message'),
+        ]);
+
+        if ($updated) {
+            return back()->with('success', 'Your transfer settings updated successfully');
+        }
+        
+        return back()->with('error', 'Error updating your transfer settings');
+    }
+
     public function showLogin()
     {
         $alt = true;

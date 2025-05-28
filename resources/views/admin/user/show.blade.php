@@ -270,6 +270,29 @@
                             @endcan
                         </div>
                     </div>
+                    <div class="card my-3">
+                        <div class="card-body">
+                            <h6 class="card-title">Transfer Settings</h6>
+                            <form action="{{ route('admin.user.transferable', $user->id) }}" id="transferSettingForm" method="POST">
+                                @csrf
+                                <div class="form-group">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" name="transferable" value="1" 
+                                            @if($user['transferable'] ?? true) checked @endif 
+                                            class="custom-control-input" id="transferToggle">
+                                        <label class="custom-control-label" for="transferToggle">Allow transfers to portfolios</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="transferMessage">Transfer Message</label>
+                                    <textarea name="transferable_message" class="form-control" id="transferMessage" 
+                                        rows="3" required>{{ $user['transferable_message'] ?? '' }}</textarea>
+                                    <small class="text-muted">This message will be shown to users regarding transfers</small>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Save Settings</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

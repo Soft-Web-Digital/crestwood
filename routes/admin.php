@@ -143,5 +143,6 @@ Route::group(['middleware' => ['auth:admin', 'active_admin']], function (){
     Route::post('/toggle/{package}/', [App\Http\Controllers\Admin\PackageController::class, 'togglePackage'])->name('toggle.packages'); 
 
     Route::post('/settings/transaferable', [App\Http\Controllers\Admin\SettingController::class, 'updateTransferable'])->name('settings.transferable'); 
+    Route::post('/user/transaferable/{user}', [App\Http\Controllers\Admin\UserController::class, 'updateUserTransferable'])->name('user.transferable'); 
 
 });

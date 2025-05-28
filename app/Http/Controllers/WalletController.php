@@ -237,8 +237,8 @@ class WalletController extends Controller
         }
 
         // Check if transfer is allowed (only allow transfers TO wallet when transferable is false)
-        if (!$settings->transferable && $request->input('to_account') === 'wallet' && in_array($request->input('from_account'), ['invest', 'save', 'trade'])) {
-            return back()->withInput()->with('error', $settings->transferable_message);
+        if (!$user->transferable && $request->input('to_account') === 'wallet' && in_array($request->input('from_account'), ['invest', 'save', 'trade'])) {
+            return back()->withInput()->with('error', $user->transferable_message);
         }
 
         $amount = $request->input('amount');
