@@ -203,7 +203,6 @@ class TransactionController extends Controller
         return back()->withInput()->with('error', 'Error processing withdrawal');
     }
 
-
     public static function storeInvestmentTransaction($investment, $method, $byCompany = false, $channel = 'web')
     {
         $desc = !$byCompany ? 'Investment' : 'Investment by '.env('APP_NAME');

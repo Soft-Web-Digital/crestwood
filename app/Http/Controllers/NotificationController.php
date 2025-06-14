@@ -507,7 +507,7 @@ class NotificationController extends Controller
     
         // Format the email content
         $msg = $message . '<br><br>' .
-            'If you have any questions or need assistance, feel free to reach out to us at support@crestwoodcapitals.com.<br><br>' .
+            'If you have any questions or need assistance, feel free to reach out to us at support@' .env('APP_DOMIAN'). ' <br><br>' .
             'Thank you for choosing Crestwood Capital Management.';
     
         // Send the email notification to the user
