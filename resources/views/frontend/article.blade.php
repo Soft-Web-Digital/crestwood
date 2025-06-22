@@ -821,7 +821,7 @@
          }(document, 'script', 'facebook-jssdk'));
       </script> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       <!-- Smartsupp Live Chat script -->
-            <script type="text/javascript">
+      <script type="text/javascript">
          var _smartsupp = _smartsupp || {};
          _smartsupp.key = '349859572aa63a7cc5f4a017ecc8e9f237b1d24f';
          window.smartsupp||(function(d) {
