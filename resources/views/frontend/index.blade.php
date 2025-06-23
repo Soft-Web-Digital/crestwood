@@ -245,55 +245,55 @@
                      <div
                      class="w-20percent sm:w-50percent p-10 module-client animation-element"
                      >
-                     <img
+                     <!-- <img
                         class="opacity-40 hover:opacity-100 transition-all"
                         width="111"
                         height="33"
                         src="{{ asset("frontend/images/demo/start-hub-2/client/spotify-1.svg") }}"
                         alt="spotify"
-                     />
+                     /> -->
                      </div>
                      <div
                      class="w-20percent sm:w-50percent p-10 module-client animation-element"
                      >
-                     <img
+                     <!-- <img
                         class="opacity-40 hover:opacity-100 transition-all"
                         width="65"
                         height="23"
                         src="{{ asset("frontend/images/demo/start-hub-2/client/nike.svg") }}"
                         alt="nike"
-                     />
+                     /> -->
                      </div>
                      <div
                      class="w-20percent sm:w-50percent p-10 module-client animation-element"
                      >
-                     <img
+                     <!-- <img
                         class="opacity-40 hover:opacity-100 transition-all"
                         width="75"
                         height="17"
                         src="{{ asset("frontend/images/demo/start-hub-2/client/amd-logo-1.svg") }}"
                         alt="amd"
-                     />
+                     /> -->
                      </div>
                      <div
                      class="w-20percent sm:w-50percent p-10 module-client animation-element"
                      >
-                     <img
+                     <!-- <img
                         class="opacity-40 hover:opacity-100 transition-all"
                         width="73"
                         height="19"
                         src="{{ asset("frontend/images/demo/start-hub-2/client/Path-43399.svg") }}"
                         alt="apper"
-                     />
+                     /> -->
                      </div>
                      <div class="w-20percent sm:w-full p-10 animation-element">
-                     <img
+                     <!-- <img
                         class="opacity-40 hover:opacity-100 transition-all"
                         width="85"
                         height="25"
                         src="{{ asset("frontend/images/demo/start-hub-2/client/logitech-2-1.svg") }}"
                         alt="logitech"
-                     />
+                     /> -->
                      </div>
                   </div>
                </div>
