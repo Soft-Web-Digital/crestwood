@@ -197,14 +197,14 @@
                         </mark>
                         <span class="txt-rotate-keywords">
                            <span class="txt-rotate-keyword active">
-                           <span>The Simple Way.</span>
+                           <span>Trade & Invest With Confidence</span>
                            </span>
-                           <span class="txt-rotate-keyword">
+                           <!-- <span class="txt-rotate-keyword">
                            <span>Build your future.</span>
                            </span>
                            <span class="txt-rotate-keyword">
                            <span>Start Investing.</span>
-                           </span>
+                           </span> -->
                         </span>
                      </h1>
                      </div>
@@ -214,9 +214,7 @@
                      <p
                         class="ld-fh-element relative text-20 mb-1/65em leading-1/25em font-medium"
                      >
-                        Build wealth effortlessly with automated investing,
-                        boost your cash with a competitive variable 4.50% APY,
-                        and secure your future with tax-advantaged IRAs.
+                        From active trading in stocks, options, and crypto to long-term investing and retirement planning, we put powerful tools in your hands. Access automated portfolios, tax-efficient accounts, and commission-free trading, all in one place.
                      </p>
                      </div>
                      <div class="mb-10">
@@ -418,6 +416,34 @@
                </div>
             </div>
             <div class="col col-12 p-0"></div>
+            <div class="col col-12 col-md-6 p-15">
+                <div class="iconbox flex flex-grow-1 relative iconbox-heading-arrow-onhover box-shadow-bottom bg-white rounded-16 pt-35 pr-65 pb-40 pl-50 mb-15 mr-10 lg:m-0">
+                    <div class="iconbox-icon-wrap mr-35">
+                        <div class="text-34 iconbox-icon-container inline-flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#41b79d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2v4" />
+                            <path d="m16.2 7.8 2.9-2.9" />
+                            <path d="M18 12h4" />
+                            <path d="m16.2 16.2 2.9 2.9" />
+                            <path d="M12 18v4" />
+                            <path d="m4.9 19.1 2.9-2.9" />
+                            <path d="M2 12h4" />
+                            <path d="m4.9 4.9 2.9 2.9" />
+                            <circle cx="12" cy="12" r="3" fill="#6dd8c0" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="contents">
+                        <h3 class="text-20 lqd-iconbox-heading">
+                            <span>Active Trading</span>
+                            <svg class="inline-block arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="32" viewBox="0 0 12 32">
+                            <path fill="currentColor" d="M8.375 16L.437 8.062C-.125 7.5-.125 6.5.438 5.938s1.563-.563 2.126 0l9 9c.562.562.624 1.5.062 2.062l-9.063 9.063c-.312.312-.687.437-1.062.437s-.75-.125-1.063-.438c-.562-.562-.562-1.562 0-2.125z"></path>
+                            </svg>
+                        </h3>
+                        <p>Trade stocks, options, and crypto in real time with advanced tools and zero commission fees. Take control of your portfolio with instant execution and powerful charting.</p>
+                    </div>
+                </div>
+            </div>
             <div class="col col-12 col-md-6 p-15">
                <div
                class="iconbox flex flex-grow-1 relative iconbox-heading-arrow-onhover box-shadow-bottom bg-white rounded-16 pt-35 pr-65 pb-40 pl-50 mb-15 mr-10 lg:m-0"
@@ -657,6 +683,9 @@
                taxes and maximize returns—while you focus on living your
                life.
                </p>
+               <p class="ld-fh-element mb-1/5em text-18 leading-1/5em mt-3">
+                Prefer a hands-on approach? Our platform also lets you trade actively across stocks, options, and crypto, all from the same dashboard.
+                </p>
                <a
                href="{{ route("investments") }}"
                class="btn btn-plain btn-hover-txt-liquid-y round border-none btn-has-label rounded-4 font-bold leading-1/1em text-12 overflow-hidden text-secondary tracking-0/1em uppercase hover:text-primary"
@@ -722,6 +751,9 @@
                            sustainability-focused ESG funds, cutting-edge tech
                            innovations, and crypto diversification options to
                            match your values and investment goals.
+                        </p>
+                        <p class="ld-fh-element mb-0 text-16 leading-1/5em mt-3">
+                            Live trading with real-time data, instant order execution, and access to stocks, ETFs, options, and crypto markets.
                         </p>
                      </div>
                      </div>
@@ -826,6 +858,201 @@
       </section>
 
       <!-- End Accordion -->
+
+
+
+      <!-- Start Case Study -->
+      <section
+         class="lqd-section case-study pt-30 pb-50"
+         data-custom-animations="true"
+         data-ca-options='{"animationTarget": ".animation-element", "ease": "power4.out", "initValues": {"y": "45px", "rotationY" : 45, "opacity" : 0} , "animations": {"y": "0px", "rotationY" : 0, "opacity" : 1}}'
+      >
+         <div class="container">
+         <div class="row justify-center">
+            <div class="col col-12 col-xl-6 text-center p-0 mb-30">
+               <div class="title-module">
+               <div class="ld-fancy-heading relative animation-element">
+                  <h2 class="ld-fh-element inline-block relative mb-0/5em">
+                     Investment Services
+                  </h2>
+               </div>
+               <div class="ld-fancy-heading relative animation-element">
+                  <p
+                     class="ld-fh-element inline-block relative mb-0/5em text-20 leading-1/7em"
+                  >
+                     Ready to get started? Check out our most popular accounts.
+                  </p>
+               </div>
+               </div>
+            </div>
+            <div class="col col-12 p-0"></div>
+            <div
+               class="col col-12 col-md-6 col-xl-3 p-20 module-content module-1"
+            >
+               <div
+               class="icon-box-module py-45 px-30 bg-white rounded-10 mb-30 sm:m-0 animation-element"
+               >
+               <div
+                  class="iconbox text-start mb-0 items-start flex flex-grow-1 relative flex-col iconbox-default"
+               >
+                  <div class="iconbox-icon-wrap">
+                     <div
+                     class="iconbox-icon-container inline-flex relative z-1 rounded-full mb-25 w-55 h-55 text-26 bg-green-100"
+                     >
+                     <svg width="27" height="27" viewBox="0 0 24 24">
+                        <path
+                           fill="#50CF80"
+                           d="M7 10l5 5 5-5M12 3v12M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2v-7"
+                        ></path>
+                     </svg>
+                     </div>
+                  </div>
+                  <div class="contents text-start">
+                     <span
+                     class="iconbox-label inline-block absolute rounded-100 font-bold uppercase tracking-0/1em top-0 right-0 bg-green-100"
+                     >
+                     INVEST
+                     </span>
+                     <h3 class="lqd-iconbox-heading text-20 mb-0/75em">
+                     Automated Investing
+                     </h3>
+                     <div class="text-14 mb-2/5rem">
+                     Build wealth with diversified, expert-built portfolios.
+                     </div>
+                     <a
+                     href="{{ route("investments") }}"
+                     class="btn btn-naked btn-icon-right btn-hover-reveal mt-1/5em mb-0 tracking-1/5 leading-1/4em text-13 uppercase font-bold text-blue-600"
+                     >
+                     <span class="btn-txt" data-text="― Start Investment">
+                        ― Start Investment
+                     </span>
+                     <span class="btn-icon text-18">
+                        <i class="lqd-icn-ess icon-md-arrow-forward"></i>
+                     </span>
+                     </a>
+                  </div>
+               </div>
+               </div>
+            </div>
+            <div
+               class="col col-12 col-md-6 col-xl-3 p-20 module-content module-2"
+            >
+               <div
+               class="icon-box-module py-45 px-30 bg-white rounded-10 mt-60 mb-30 lg:mt-0 sm:m-0 animation-element"
+               >
+               <div
+                  class="iconbox text-start mb-0 items-start flex flex-grow-1 relative flex-col iconbox-default"
+               >
+                  <span
+                     class="iconbox-label inline-block absolute rounded-100 font-bold uppercase tracking-0/1em top-0 right-0 bg-gray-100"
+                  >
+                     Popular
+                  </span>
+                  <div class="iconbox-icon-wrap">
+                     <div
+                     class="iconbox-icon-container inline-flex relative z-1 rounded-full mb-25 w-55 h-55 text-26 bg-blue-100"
+                     >
+                     <svg width="27" height="27" viewBox="0 0 24 24">
+                        <path
+                           fill="#67C8D8"
+                           d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2v16z"
+                        ></path>
+                     </svg>
+                     </div>
+                  </div>
+                  <div class="contents text-start">
+                     <h3 class="lqd-iconbox-heading text-20 mb-0/75em">
+                     High-yield Cash
+                     </h3>
+                     <div class="text-14 mb-2/5rem">
+                     Earn more interest on your savings with 4.50% variable
+                     APY.*
+                     </div>
+                     <a
+                     href="{{ route("savings") }}"
+                     class="btn btn-naked btn-icon-right btn-hover-reveal mt-1/5em mb-0 tracking-1/5 leading-1/4em text-13 uppercase font-bold text-blue-600"
+                     >
+                     <span class="btn-txt" data-text="― Start Saving">
+                        ― Start Saving
+                     </span>
+                     <span class="btn-icon text-18">
+                        <i class="lqd-icn-ess icon-md-arrow-forward"></i>
+                     </span>
+                     </a>
+                  </div>
+               </div>
+               </div>
+            </div>
+            <div
+               class="col col-12 col-md-6 col-xl-3 p-20 module-content module-3"
+            >
+               <div
+               class="icon-box-module py-45 px-30 bg-white rounded-10 mb-30 sm:m-0 animation-element"
+               >
+               <div
+                  class="iconbox text-start mb-0 items-start flex flex-grow-1 relative flex-col iconbox-default"
+               >
+                  <div class="iconbox-icon-wrap">
+                     <div
+                     class="iconbox-icon-container inline-flex relative z-1 rounded-full mb-25 w-55 h-55 text-26 bg-purple-100"
+                     >
+                     <svg width="27" height="27" viewBox="0 0 24 24">
+                        <path
+                           fill="#DD74C3"
+                           d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm1 15h-2v-6h2zm0-8h-2V7h2z"
+                        ></path>
+                     </svg>
+                     </div>
+                  </div>
+                  <div class="contents text-start">
+                     <h3 class="lqd-iconbox-heading text-20 mb-0/75em">
+                     IRAs
+                     </h3>
+                     <div class="text-14 mb-2/5rem">
+                     Grow your retirement savings with a tax-advantaged IRA.
+                     </div>
+                     <a
+                     href="{{ route("dashboard") }}"
+                     class="btn btn-naked btn-icon-right btn-hover-reveal mt-1/5em mb-0 tracking-1/5 leading-1/4em text-13 uppercase font-bold text-blue-600"
+                     >
+                     <span class="btn-txt" data-text="― Open an IRA">
+                        ― Open an IRA
+                     </span>
+                     <span class="btn-icon text-18">
+                        <i class="lqd-icn-ess icon-md-arrow-forward"></i>
+                     </span>
+                     </a>
+                  </div>
+               </div>
+               </div>
+            </div>
+            <div class="col col-12 col-md-6 col-xl-3 p-20 module-content module-4">
+                <div class="icon-box-module py-45 px-30 bg-white rounded-10 mb-30 sm:m-0 animation-element">
+                    <div class="iconbox text-start mb-0 items-start flex flex-grow-1 relative flex-col iconbox-default">
+                        <div class="iconbox-icon-wrap">
+                            <div class="iconbox-icon-container inline-flex relative z-1 rounded-full mb-25 w-55 h-55 text-26 bg-indigo-100">
+                            <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.66 0 3-4 3-9s-1.34-9-3-9m0 18c-1.66 0-3-4-3-9s1.34-9 3-9"/>
+                            </svg>
+                            </div>
+                        </div>
+                        <div class="contents text-start">
+                            <h3 class="lqd-iconbox-heading text-20 mb-0/75em">Brokerage Account</h3>
+                            <div class="text-14 mb-2/5rem">
+                            Open a self-directed account to trade stocks, options, ETFs, and crypto with no commissions. Manage short-term trades and long-term positions from one secure platform.
+                            </div>
+                            <a href="{{ route('register') }}" class="btn btn-naked btn-icon-right btn-hover-reveal mt-1/5em mb-0 tracking-1/5 leading-1/4em text-13 uppercase font-bold text-blue-600">
+                            <span class="btn-txt" data-text="― Open Account">― Open Account</span>
+                            <span class="btn-icon text-18"><i class="lqd-icn-ess icon-md-arrow-forward"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         </div>
+      </section>
+      <!-- End Case Study -->
 
       <section
          class="lqd-section accordion tw-px-4 md:tw-px-8 lg:tw-px-20 tw-py-12 md:tw-py-20 lg:tw-py-48 md:p-0 tw-bg-blue-100"
@@ -2116,176 +2343,6 @@
       </section>
       <!-- End About -->
 
-      <!-- Start Case Study -->
-      <section
-         class="lqd-section case-study pt-30 pb-50"
-         data-custom-animations="true"
-         data-ca-options='{"animationTarget": ".animation-element", "ease": "power4.out", "initValues": {"y": "45px", "rotationY" : 45, "opacity" : 0} , "animations": {"y": "0px", "rotationY" : 0, "opacity" : 1}}'
-      >
-         <div class="container">
-         <div class="row justify-center">
-            <div class="col col-12 col-xl-6 text-center p-0 mb-30">
-               <div class="title-module">
-               <div class="ld-fancy-heading relative animation-element">
-                  <h2 class="ld-fh-element inline-block relative mb-0/5em">
-                     Investment Services
-                  </h2>
-               </div>
-               <div class="ld-fancy-heading relative animation-element">
-                  <p
-                     class="ld-fh-element inline-block relative mb-0/5em text-20 leading-1/7em"
-                  >
-                     Ready to get started? Check out our most popular accounts.
-                  </p>
-               </div>
-               </div>
-            </div>
-            <div class="col col-12 p-0"></div>
-            <div
-               class="col col-12 col-md-6 col-xl-3 p-20 module-content module-1"
-            >
-               <div
-               class="icon-box-module py-45 px-30 bg-white rounded-10 mb-30 sm:m-0 animation-element"
-               >
-               <div
-                  class="iconbox text-start mb-0 items-start flex flex-grow-1 relative flex-col iconbox-default"
-               >
-                  <div class="iconbox-icon-wrap">
-                     <div
-                     class="iconbox-icon-container inline-flex relative z-1 rounded-full mb-25 w-55 h-55 text-26 bg-green-100"
-                     >
-                     <svg width="27" height="27" viewBox="0 0 24 24">
-                        <path
-                           fill="#50CF80"
-                           d="M7 10l5 5 5-5M12 3v12M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2v-7"
-                        ></path>
-                     </svg>
-                     </div>
-                  </div>
-                  <div class="contents text-start">
-                     <span
-                     class="iconbox-label inline-block absolute rounded-100 font-bold uppercase tracking-0/1em top-0 right-0 bg-green-100"
-                     >
-                     INVEST
-                     </span>
-                     <h3 class="lqd-iconbox-heading text-20 mb-0/75em">
-                     Automated Investing
-                     </h3>
-                     <div class="text-14 mb-2/5rem">
-                     Build wealth with diversified, expert-built portfolios.
-                     </div>
-                     <a
-                     href="{{ route("investments") }}"
-                     class="btn btn-naked btn-icon-right btn-hover-reveal mt-1/5em mb-0 tracking-1/5 leading-1/4em text-13 uppercase font-bold text-blue-600"
-                     >
-                     <span class="btn-txt" data-text="― Start Investment">
-                        ― Start Investment
-                     </span>
-                     <span class="btn-icon text-18">
-                        <i class="lqd-icn-ess icon-md-arrow-forward"></i>
-                     </span>
-                     </a>
-                  </div>
-               </div>
-               </div>
-            </div>
-            <div
-               class="col col-12 col-md-6 col-xl-3 p-20 module-content module-2"
-            >
-               <div
-               class="icon-box-module py-45 px-30 bg-white rounded-10 mt-60 mb-30 lg:mt-0 sm:m-0 animation-element"
-               >
-               <div
-                  class="iconbox text-start mb-0 items-start flex flex-grow-1 relative flex-col iconbox-default"
-               >
-                  <span
-                     class="iconbox-label inline-block absolute rounded-100 font-bold uppercase tracking-0/1em top-0 right-0 bg-gray-100"
-                  >
-                     Popular
-                  </span>
-                  <div class="iconbox-icon-wrap">
-                     <div
-                     class="iconbox-icon-container inline-flex relative z-1 rounded-full mb-25 w-55 h-55 text-26 bg-blue-100"
-                     >
-                     <svg width="27" height="27" viewBox="0 0 24 24">
-                        <path
-                           fill="#67C8D8"
-                           d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2v16z"
-                        ></path>
-                     </svg>
-                     </div>
-                  </div>
-                  <div class="contents text-start">
-                     <h3 class="lqd-iconbox-heading text-20 mb-0/75em">
-                     High-yield Cash
-                     </h3>
-                     <div class="text-14 mb-2/5rem">
-                     Earn more interest on your savings with 4.50% variable
-                     APY.*
-                     </div>
-                     <a
-                     href="{{ route("savings") }}"
-                     class="btn btn-naked btn-icon-right btn-hover-reveal mt-1/5em mb-0 tracking-1/5 leading-1/4em text-13 uppercase font-bold text-blue-600"
-                     >
-                     <span class="btn-txt" data-text="― Start Saving">
-                        ― Start Saving
-                     </span>
-                     <span class="btn-icon text-18">
-                        <i class="lqd-icn-ess icon-md-arrow-forward"></i>
-                     </span>
-                     </a>
-                  </div>
-               </div>
-               </div>
-            </div>
-            <div
-               class="col col-12 col-md-6 col-xl-3 p-20 module-content module-3"
-            >
-               <div
-               class="icon-box-module py-45 px-30 bg-white rounded-10 mb-30 sm:m-0 animation-element"
-               >
-               <div
-                  class="iconbox text-start mb-0 items-start flex flex-grow-1 relative flex-col iconbox-default"
-               >
-                  <div class="iconbox-icon-wrap">
-                     <div
-                     class="iconbox-icon-container inline-flex relative z-1 rounded-full mb-25 w-55 h-55 text-26 bg-purple-100"
-                     >
-                     <svg width="27" height="27" viewBox="0 0 24 24">
-                        <path
-                           fill="#DD74C3"
-                           d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm1 15h-2v-6h2zm0-8h-2V7h2z"
-                        ></path>
-                     </svg>
-                     </div>
-                  </div>
-                  <div class="contents text-start">
-                     <h3 class="lqd-iconbox-heading text-20 mb-0/75em">
-                     IRAs
-                     </h3>
-                     <div class="text-14 mb-2/5rem">
-                     Grow your retirement savings with a tax-advantaged IRA.
-                     </div>
-                     <a
-                     href="{{ route("dashboard") }}"
-                     class="btn btn-naked btn-icon-right btn-hover-reveal mt-1/5em mb-0 tracking-1/5 leading-1/4em text-13 uppercase font-bold text-blue-600"
-                     >
-                     <span class="btn-txt" data-text="― Open an IRA">
-                        ― Open an IRA
-                     </span>
-                     <span class="btn-icon text-18">
-                        <i class="lqd-icn-ess icon-md-arrow-forward"></i>
-                     </span>
-                     </a>
-                  </div>
-               </div>
-               </div>
-            </div>
-         </div>
-         </div>
-      </section>
-      <!-- End Case Study -->
-
       <!-- Start Testimonial -->
       <section
          class="lqd-section testimonial pt-170 pb-85 bg-slate-100 transition-all"
@@ -2361,9 +2418,7 @@
                            <span
                            class="text-22 font-normal text-nightblue leading-35"
                            >
-                           "I like the different types of accounts offered,
-                           the high APY, and how easy it is to check my
-                           accounts on mobile."
+                           "The trading tools are seamless. I can place stock and option trades instantly, track my positions in real time, and still manage my longer-term investments from the same account. It feels like having a full brokerage in my pocket."
                            </span>
                         </h5>
                         <h3 class="mb-0 mt-1em">
@@ -2388,13 +2443,12 @@
                            <span
                            class="text-22 font-normal text-nightblue leading-35"
                            >
-                           "Saves the stress and hassle of handling
-                           retirement savings myself."
+                           "What impressed me most was how the platform balances active trading with automated investing. I trade crypto and stocks during the week, while my retirement savings continue to grow through an automated IRA plan."
                            </span>
                         </h5>
                         <h3 class="mb-0 mt-1em">
                            <span class="text-14 text-nightblue">
-                           David S.
+                           George S.
                            </span>
                         </h3>
                         <!-- <h6 class="mt-1em">
@@ -2414,8 +2468,7 @@
                            <span
                            class="text-22 font-normal text-nightblue leading-35"
                            >
-                           "It's a good "set-it-and-forget-it" investing tool
-                           for my family."
+                           "Rolling over my 401(k) was simple. The guidance on tax-advantaged accounts was clear, and the portfolio recommendations were tailored to my goals. I feel confident knowing my future is being managed with expertise and transparency."
                            </span>
                         </h5>
                         <h3 class="mb-0 mt-1em">
@@ -2431,6 +2484,57 @@
                      </div>
                      </div>
                   </div>
+                  <div
+                     class="carousel-item flex flex-col justify-center w-full px-30 lg:px-0"
+                  >
+                     <div class="carousel-item-inner relative w-full">
+                     <div class="carousel-item-content relative w-full">
+                        <h5 class="mt-1em">
+                           <span
+                           class="text-22 font-normal text-nightblue leading-35"
+                           >
+                           "Checking my accounts on mobile is straightforward. I like being able to move between my cash reserve, automated portfolio, and trading account without any friction. It saves me time and keeps everything organized."
+                           </span>
+                        </h5>
+                        <h3 class="mb-0 mt-1em">
+                           <span class="text-14 text-nightblue">
+                           Coleman T.
+                           </span>
+                        </h3>
+                        <!-- <h6 class="mt-1em">
+                           <span class="text-12 text-blue-200 m-0">
+                           TWITTER CEO
+                           </span>
+                        </h6> -->
+                     </div>
+                     </div>
+                  </div>
+                  <div
+                     class="carousel-item flex flex-col justify-center w-full px-30 lg:px-0"
+                  >
+                     <div class="carousel-item-inner relative w-full">
+                     <div class="carousel-item-content relative w-full">
+                        <h5 class="mt-1em">
+                           <span
+                           class="text-22 font-normal text-nightblue leading-35"
+                           >
+                           "I wanted a platform that offered serious trading capabilities without giving up professional money management. This strikes the perfect balance with advanced charts and execution for active trading, plus automated rebalancing for the long term."
+                           </span>
+                        </h5>
+                        <h3 class="mb-0 mt-1em">
+                           <span class="text-14 text-nightblue">
+                           Jackson A.
+                           </span>
+                        </h3>
+                        <!-- <h6 class="mt-1em">
+                           <span class="text-12 text-blue-200 m-0">
+                           TWITTER CEO
+                           </span>
+                        </h6> -->
+                     </div>
+                     </div>
+                  </div>
+                  
                </div>
                </div>
             </div>
