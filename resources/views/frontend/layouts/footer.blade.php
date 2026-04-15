@@ -30,10 +30,7 @@
                   <!-- Company Description -->
                   <div class="tw-space-y-4">
                     <p class="tw-text-gray-300 tw-leading-relaxed tw-max-w-md">
-                      Award-winning robo advisor providing intelligent
-                      investment management, comprehensive financial planning,
-                      and innovative digital banking solutions for modern
-                      investors.
+                      We are a complete brokerage for modern investors. Trade stocks, options, and crypto, automate portfolios, and grow wealth with tax-smart retirement accounts, all in one place.
                     </p>
 
                     <!-- Awards -->
