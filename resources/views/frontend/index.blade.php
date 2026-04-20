@@ -2379,7 +2379,7 @@
          </div>
          <div class="container">
          <div class="row items-center content-center">
-            <div class="col col-12 col-xl-6 p-15">
+            {{-- <div class="col col-12 col-xl-6 p-15">
                <div class="image-container flex justify-center items-center">
                <div
                   class="lqd-imggrp-single text-center block relative perspective m-auto w-65percent lg:w-full"
@@ -2389,17 +2389,11 @@
                      class="lqd-imggrp-img-container inline-flex relative transform-style-3d"
                   >
                      <figure class="w-full relative" data-stacking-factor="1">
-                     <img
-                        width="750"
-                        height="750"
-                        src="{{ asset("frontend/images/demo/digital-hub/avatar-testimonial.png") }}"
-                        alt="Testimonial"
-                     />
                      </figure>
                   </div>
                </div>
                </div>
-            </div>
+            </div> --}}
             <div class="col col-12 col-xl-6 p-15">
                <div class="title-container">
                <div class="ld-fancy-heading relative">
@@ -2686,13 +2680,13 @@
                      Phone
                      </p>
                   </div>
-                  <div class="ld-fancy-heading relative">
+                  {{-- <div class="ld-fancy-heading relative">
                      <h4
                      class="ld-fh-element inline-block relative m-0 text-20 text-blue-700"
                      >
                      + 1 223 38 87 XXX
                      </h4>
-                  </div>
+                  </div> --}}
                </div>
                </div>
             </div>
