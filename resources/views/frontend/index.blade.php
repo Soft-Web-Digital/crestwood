@@ -154,7 +154,7 @@
                      alt="3D hand"
                      /> -->
                   </div>
-                  <div class="relative z-2">
+                  <div class="relative z-2" style="margin-top: 120px;">
                      <div class="ld-fancy-heading relative animation-element">
                      <h1
                         class="ld-fh-element relative lqd-highlight-custom lqd-highlight-custom-2 mb-0/35em text-white tw-text-4xl md:tw-text-4xl lg:tw-text-7xl"
@@ -197,12 +197,12 @@
                         </mark>
                         <span class="txt-rotate-keywords">
                            <span class="txt-rotate-keyword active">
-                           <span>Trade & Invest With Confidence</span>
-                           </span>
-                           <!-- <span class="txt-rotate-keyword">
-                           <span>Build your future.</span>
+                           <span>Trade & Invest </span>
                            </span>
                            <span class="txt-rotate-keyword">
+                           <span>With Confidence.</span>
+                           </span>
+                           <!-- <span class="txt-rotate-keyword">
                            <span>Start Investing.</span>
                            </span> -->
                         </span>
