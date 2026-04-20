@@ -154,7 +154,15 @@
                      alt="3D hand"
                      /> -->
                   </div>
-                  <div class="relative z-2" style="margin-top: 120px;">
+                  <style>
+                     @media (min-width: 1024px) {
+                        .grow-spacing {
+                           margin-top: 100px !important; /* Adjust 25px to your preferred space */
+                           display: inline-block !important;
+                        }
+                     }
+                  </style>
+                  <div class="relative z-2 grow-spacing">
                      <div class="ld-fancy-heading relative animation-element">
                      <h1
                         class="ld-fh-element relative lqd-highlight-custom lqd-highlight-custom-2 mb-0/35em text-white tw-text-4xl md:tw-text-4xl lg:tw-text-7xl"
