@@ -74,12 +74,12 @@
                   <a class="navbar-brand" href="{{ route("home") }}" rel="home">
                      <span class="navbar-brand-inner">
                      <img
-                        class="logo-sticky h-30"
+                        class="logo-sticky h-50"
                         src="{{ asset("frontend/images/logo/logo-light.png") }}"
                         alt="Crestwood"
                      />
                      <img
-                        class="logo-default h-30"
+                        class="logo-default h-50"
                         src="{{ asset("frontend/images/logo/logo-light.png") }}"
                         alt="Crestwood"
                      />
