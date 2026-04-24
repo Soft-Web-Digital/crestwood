@@ -161,6 +161,14 @@
                            display: inline-block !important;
                         }
                      }
+
+                     @media (max-width: 1024px) {
+                        .grow-spacing {
+                           margin-top: -100px !important; /* Adjust 25px to your preferred space */
+                           display: inline-block !important;
+                           margin-bottom: 80px
+                        }
+                     }
                   </style>
                   <div class="relative z-2 grow-spacing">
                      <div class="ld-fancy-heading relative animation-element">
@@ -614,11 +622,11 @@
                class="iconbox flex flex-grow-1 relative iconbox-heading-arrow-onhover box-shadow-bottom relative bg-white rounded-16 pt-35 pr-65 pb-40 pl-50 mb-15 ml-10 lg:m-0"
                >
                <div class="ld-fancy-heading absolute top-0 z-1">
-                  <h6
+                  {{-- <h6
                      class="ld-fh-element relative m-0 leading-1em uppercase px-10 py-5 rounded-4 text-13 bg-yellow-200"
                   >
                      PRO
-                  </h6>
+                  </h6> --}}
                </div>
                <div class="iconbox-icon-wrap mr-35">
                   <div class="text-34 iconbox-icon-container inline-flex">
@@ -2607,7 +2615,7 @@
                      data-split-text="true"
                      data-split-options='{"type": "lines"}'
                      >
-                     You can contact us via email or phone
+                     You can contact us via email 
                      </p>
                   </div>
                </div>
@@ -2666,7 +2674,7 @@
                      <h4
                      class="ld-fh-element inline-block relative m-0 text-20 text-blue-700"
                      >
-                     info@crestwood.com
+                     support@pillarwell.com
                      </h4>
                   </div>
                </div>
@@ -2677,7 +2685,7 @@
                      <p
                      class="ld-fh-element inline-block relative m-0 text-blue-200"
                      >
-                     Phone
+                     {{-- Phone --}}
                      </p>
                   </div>
                   {{-- <div class="ld-fancy-heading relative">
